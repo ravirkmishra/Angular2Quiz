@@ -9,7 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var EntryAppComponent = (function () {
     function EntryAppComponent() {
-        this.pageHeader = 'Quiz Master';
+        this.pageHeader = 'Quiz-Master';
     }
     return EntryAppComponent;
 }());
