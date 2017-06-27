@@ -7,8 +7,8 @@ import { NgForm } from '@angular/forms';
 })
 export class LogInComponent
 {
-   onSubmit(f: NgForm) {
-    console.log(f.value);  // { first: '', last: '' }
-    console.log(f.valid);  // false
+   onSubmit(fLogIn: NgForm) {
+    console.log(fLogIn.value);  // { first: '', last: '' }
+    console.log(fLogIn.valid);  // false
   }
 }

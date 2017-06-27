@@ -10,17 +10,17 @@ var core_1 = require("@angular/core");
 var LogInComponent = (function () {
     function LogInComponent() {
     }
-    LogInComponent.prototype.onSubmit = function (fLogIn) {
-        console.log(fLogIn.value); // { first: '', last: '' }
-        console.log(fLogIn.valid); // false
+    LogInComponent.prototype.onSubmit = function (fSignUp) {
+        console.log(fSignUp.value); // { first: '', last: '' }
+        console.log(fSignUp.valid); // false
     };
     return LogInComponent;
 }());
 LogInComponent = __decorate([
     core_1.Component({
         selector: 'LogIn-comp',
-        templateUrl: 'App/LogIn/LogIn.html',
+        templateUrl: 'App/LogIn/SignUp.html',
     })
 ], LogInComponent);
 exports.LogInComponent = LogInComponent;
-//# sourceMappingURL=LogIn.component.js.map
+//# sourceMappingURL=SignUp.component.js.map

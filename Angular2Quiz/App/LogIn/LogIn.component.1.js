@@ -10,9 +10,9 @@ var core_1 = require("@angular/core");
 var LogInComponent = (function () {
     function LogInComponent() {
     }
-    LogInComponent.prototype.onSubmit = function (fLogIn) {
-        console.log(fLogIn.value); // { first: '', last: '' }
-        console.log(fLogIn.valid); // false
+    LogInComponent.prototype.onSubmit = function (f) {
+        console.log(f.value); // { first: '', last: '' }
+        console.log(f.valid); // false
     };
     return LogInComponent;
 }());
@@ -23,4 +23,4 @@ LogInComponent = __decorate([
     })
 ], LogInComponent);
 exports.LogInComponent = LogInComponent;
-//# sourceMappingURL=LogIn.component.js.map
+//# sourceMappingURL=LogIn.component.1.js.map
