@@ -7,9 +7,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
+var forms_1 = require("@angular/forms");
 var platform_browser_1 = require("@angular/platform-browser");
 var EntryApp_component_1 = require("./EntryApp.component");
-var ViewGrid_component_1 = require("./ViewGrid/ViewGrid.component");
+var LogIn_component_1 = require("./LogIn/LogIn.component");
 var EntryAppModule = (function () {
     function EntryAppModule() {
     }
@@ -17,8 +18,8 @@ var EntryAppModule = (function () {
 }());
 EntryAppModule = __decorate([
     core_1.NgModule({
-        imports: [platform_browser_1.BrowserModule],
-        declarations: [EntryApp_component_1.EntryAppComponent, ViewGrid_component_1.ViewGridComponent],
+        imports: [platform_browser_1.BrowserModule, forms_1.FormsModule],
+        declarations: [EntryApp_component_1.EntryAppComponent, LogIn_component_1.LogInComponent],
         bootstrap: [EntryApp_component_1.EntryAppComponent]
     })
 ], EntryAppModule);

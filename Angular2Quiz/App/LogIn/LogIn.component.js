@@ -7,18 +7,20 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var EntryAppComponent = (function () {
-    function EntryAppComponent() {
-        this.pageHeader = 'Quiz-Master';
+var LogInComponent = (function () {
+    function LogInComponent() {
     }
-    return EntryAppComponent;
+    LogInComponent.prototype.onSubmit = function (f) {
+        console.log(f.value); // { first: '', last: '' }
+        console.log(f.valid); // false
+    };
+    return LogInComponent;
 }());
-EntryAppComponent = __decorate([
+LogInComponent = __decorate([
     core_1.Component({
-        selector: 'bank-app',
-        templateUrl: 'App/EntryApp.html',
-        styleUrls: ['App/EntryApp.component.css']
+        selector: 'LogIn-comp',
+        templateUrl: 'App/LogIn/LogIn.html',
     })
-], EntryAppComponent);
-exports.EntryAppComponent = EntryAppComponent;
-//# sourceMappingURL=EntryApp.component.js.map
+], LogInComponent);
+exports.LogInComponent = LogInComponent;
+//# sourceMappingURL=LogIn.component.js.map
